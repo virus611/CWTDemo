@@ -21,3 +21,8 @@ download下来源码，.net core 3.1的，除了newtownjson外，没有奇奇怪
 请求 Test/Index, Header["UID"]=刚才的那一串。如果显示12345，说明OK。否则401错误
 
 
+# 其它
+
+去TMD通用，专用才叫安全！！！ Action不使用CWTUser，就不会调用模型绑定模块。
+
+这是无状态的！！！！
